@@ -1,0 +1,138 @@
+/* Horizontal Register page styling */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .register-card {
+    width: 100%;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .register-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .register-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    position: relative;
+  }
+  
+  .register-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(to right, #6e48aa, #9d50bb);
+    border-radius: 2px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-column {
+    flex: 1;
+  }
+  
+  .form-control {
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #6e48aa;
+    box-shadow: 0 0 0 0.25rem rgba(110, 72, 170, 0.25);
+  }
+  
+  .form-label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-text {
+    color: #6c757d;
+    font-size: 0.875rem;
+  }
+  
+  .form-check-label {
+    color: #495057;
+  }
+  
+  .register-btn {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, #6e48aa, #9d50bb);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .register-btn:hover {
+    background: linear-gradient(to right, #5d3d91, #8a45a3);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(110, 72, 170, 0.3);
+  }
+  
+  .register-btn:active {
+    transform: translateY(0);
+  }
+  
+  .register-footer {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #6c757d;
+  }
+  
+  .register-link {
+    color: #6e48aa;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .register-link:hover {
+    color: #5d3d91;
+    text-decoration: underline;
+  }
+  
+  /* Toast customization */
+  .Toastify__toast {
+    border-radius: 8px;
+    padding: 16px;
+  }
+  
+  .Toastify__toast--success {
+    background: linear-gradient(to right, #28a745, #20c997);
+  }
+  
+  .Toastify__toast--error {
+    background: linear-gradient(to right, #dc3545, #ff6b6b);
+  }
+  
