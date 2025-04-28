@@ -22,12 +22,23 @@ This project demonstrates user authentication, real-time database interactions, 
 
 🛠️ **Technologies Used**  
 
-**Frontend**:  React, React Router, React Bootstrap
-**Backend**:  Firebase (Authentication, Firestore)
-**Styling**:  CSS, Bootstrap, Custom Animations
-**Image Storage**:  Cloudinary
-**State Management**:  React Context API
-**Other Libraries**:  react-toastify, react-icons, axios
+**Frontend**: 
+React, React Router, React Bootstrap
+
+**Backend**: 
+Firebase (Authentication, Firestore)
+
+**Styling**: 
+CSS, Bootstrap, Custom Animations
+
+**Image Storage**: 
+Cloudinary
+
+**State Management**:  
+React Context API
+
+**Other Libraries**: 
+react-toastify, react-icons, axios
 
 🚀 **Getting Started**
 
